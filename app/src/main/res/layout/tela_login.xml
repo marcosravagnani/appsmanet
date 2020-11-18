@@ -33,4 +33,10 @@
         android:hint="senha"
         android:inputType="textPersonName" />
 
+    <Button
+        android:id="@+id/btn_entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTRAR" />
+
 </LinearLayout>
