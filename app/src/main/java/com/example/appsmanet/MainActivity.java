@@ -25,9 +25,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void valida (View view){
-        if (edt_login.equals("admin")&& edt_senha.equals("admin")){
+        if (edt_login.getText().toString().equals("admin")&& edt_senha.getText().toString().equals("admin"))
             startActivity(new Intent(MainActivity.this, Tela_Principal.class));
-        }
         else
             Toast.makeText(this, "usuário ou senha inválido", Toast.LENGTH_LONG).show();
     }
